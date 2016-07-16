@@ -12,6 +12,9 @@ gem 'turbolinks'
 gem 'jbuilder'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+gem 'faml'
+gem 'haml-rails'
+
 gem 'omniauth-google-oauth2'
 
 group :development, :test do
