@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'rails'
+gem 'dotenv-rails', require: 'dotenv/rails-now'
+
+gem 'rails', '~> 4.2.5'
 gem 'sqlite3'
 gem 'sass-rails'
 gem 'uglifier'
