@@ -1,0 +1,6 @@
+%h1 Welcome
+
+%P= current_user[:id]
+%p= image_tag current_user[:image], size: '100x100'
+
+%p= link_to "sing out", sign_out_path, method: :delete 
