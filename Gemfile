@@ -20,6 +20,8 @@ gem 'omniauth-google-oauth2'
 group :development, :test do
   gem 'byebug'
 
+  gem 'quiet_assets'
+
   gem 'pry-byebug'
   gem 'pry-doc', require: false
   gem 'pry-rails'
